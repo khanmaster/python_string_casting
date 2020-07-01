@@ -26,8 +26,11 @@ student_record = { "name": "shahrukh",
                    "completed_lesson": 5,
                    "completed_lessons_names": ["strings", "Tuples", "variables"]
 }
-for record in student_record.values():
-    print(record)
+for record in student_record.keys():
+    if record == "name":
+        print(record)
+    elif record == 5:
+        print(record)
 
 # exercise
 
