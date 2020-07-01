@@ -83,11 +83,15 @@
 # # capitalise first letter of the sentence
 # print(use_text.capitalize()) # used to interact with User a lot
 
-use_text = "here's SOME text with lot's of text"
-# replacing text in the string
-print(use_text.replace("with", ","))
+# use_text = "here's SOME text with lot's of text"
+# # replacing text in the string
+# print(use_text.replace("with", ","))
+#
+# print(use_text.startswith("h"))
 
-print(use_text.startswith("h"))
+
+
+
 
 
 
